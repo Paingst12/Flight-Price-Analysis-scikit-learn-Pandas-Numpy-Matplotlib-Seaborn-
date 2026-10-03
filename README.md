@@ -49,7 +49,7 @@ The analysis follows a structured data science pipeline implemented in `Flight P
 - **Primary Price Driver:** `Total_Stops` exhibits the strongest correlation with price ($r = 0.6039$), outperforming `Duration_mins` ($r = 0.5037$). Layovers add substantial operational and logistical costs reflected in the fare.
 - **Regression Equation & Coefficients:**
   
-  $$Price = 5426.36 + (1.21 × Duration_mins) + (3493.09 × Stops_num)$$
+  $$Price = 5426.36 + (1.21 × 'Duration_mins') + (3493.09 × 'Stops_num')$$
   
   - **Baseline Fare (Intercept):** ~5,426.36
   - **Per-Stop Premium:** Every additional transit stop adds approximately **+3,493.09** to the fare.
