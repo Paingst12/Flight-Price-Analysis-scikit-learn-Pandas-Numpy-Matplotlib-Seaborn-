@@ -31,18 +31,20 @@ The analysis follows a structured data science pipeline implemented in `Flight P
 - **Missing Value Handling:** Cleaned incomplete records across routes and durations.
 - **Normality Testing:** Evaluated the `Weight`/continuous distributions using the **Shapiro-Wilk Test** ($p = 0.4341$), alongside Skewness ($0.12$) and Kurtosis ($-1.15$) metrics to verify distribution properties.
 - **Outlier Detection:** Used the **Interquartile Range (IQR)** method to identify and bound extreme price outliers without distorting underlying distribution trends.
-- <img width="2895" height="1495" alt="image" src="https://github.com/user-attachments/assets/67a96f28-8c36-4281-aee0-b794e738b27a" />
 
 
 ### 2. Multi-Panel Visual Exploration
 - **Source & Destination Trends:** Analyzed route-specific average fares across major travel hubs.
 - **Duration vs. Layover Analysis:** Grouped flight durations into time buckets to examine how layover frequency scales with total travel time.
 - **Airline Carrier Segmentation:** Categorized pricing patterns across budget (IndiGo, SpiceJet, AirAsia) and premium/business carriers.
+- <img width="1589" height="990" alt="image" src="https://github.com/user-attachments/assets/6313bcb5-34ba-4a02-86f9-211a8304efa4" />
+
 
 ### 3. Statistical Testing & Predictive Modeling
 - **Bivariate Correlation:** Measured linear relationships between numerical features and ticket price.
 - **Hypothesis Testing:** Evaluated group differences across flight classes and stops.
 - **Multiple Linear Regression:** Modeled price as a function of `Duration_mins` and `Stops_num`.
+- <img width="2895" height="1495" alt="image" src="https://github.com/user-attachments/assets/67a96f28-8c36-4281-aee0-b794e738b27a" />
 
 ---
 
